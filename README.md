@@ -81,3 +81,10 @@ To run tests
 ```sh
 npm test
 ```
+
+## CRUD API
+
+GET /rooms/:id/bookings
+POST /rooms/:id/bookings
+PUT /rooms/:id/bookings
+DELETE /rooms/:id/bookings
