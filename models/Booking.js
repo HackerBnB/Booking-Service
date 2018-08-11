@@ -15,7 +15,7 @@ const BookingSchema = new Schema({
   maxInfants: Number,
   taxes: Number,
   funFactTitles: String,
-  funFacts: String
+  funFacts: String,
 });
 
 const Booking = mongoose.model('Booking', BookingSchema);

@@ -2,18 +2,19 @@
   "name": "bookingcomponent",
   "version": "1.0.0",
   "description": "an airbnb booking component",
-  "author": "Nicholas Vincent-Hill",
+  "author": "",
   "license": "",
   "engines": {
     "node": ">=6.13.0"
   },
   "scripts": {
-    "db:seed": "node generate.js",
+    "db:seed": "node generate_data.js",
     "start": "nodemon server/index.js",
     "react-dev": "webpack -d --watch",
     "test": "jest",
     "start:pro": "node generate.js && node server/",
-    "build": "webpack -d && grunt deploy"
+    "build": "webpack -d && grunt deploy",
+    "zip": "node generate_data.js | gzip -c > data.csv.gz"
   },
   "jest": {
     "collectCoverage": true,
