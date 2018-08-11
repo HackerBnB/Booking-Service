@@ -1,4 +1,3 @@
-const fs = require('fs');
 const faker = require('faker');
 
 console.log(
@@ -26,7 +25,6 @@ const bookings = (start, numOfBookings) => {
       `${roomId}, ${roomName}, ${price}, ${cleaningFee}, ${serviceFee}, ${minimumStay}, ${maxAdults}, ${maxChildren}, ${maxInfants}, ${taxes}, ${funFactTitles}, ${funFacts}`,
     );
   }
-  // output.write(`${csv}\n`);
 };
 
 bookings(1, 5000000);
