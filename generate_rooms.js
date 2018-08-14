@@ -1,9 +1,9 @@
 const faker = require('faker');
 
-console.log(
-  'id, roomName, price, cleaningFee, serviceFee, minimumStay, maxAdults, maxChildren, maxInfants, taxes, funFactTitles, funFacts',
-);
-const bookings = (start, numOfBookings) => {
+// console.log(
+//   'id, roomName, price, cleaningFee, serviceFee, minimumStay, maxAdults, maxChildren, maxInfants, taxes, funFactTitles, funFacts',
+// );
+const rooms = (start, numOfBookings) => {
   for (let i = start; i <= numOfBookings; i += 1) {
     const roomId = i;
     const roomName = `room${i}`;
@@ -27,7 +27,7 @@ const bookings = (start, numOfBookings) => {
   }
 };
 
-bookings(1, 5000000);
+rooms(1, 5000000);
 setTimeout(() => {
-  bookings(5000001, 10000000);
+  rooms(5000001, 10000000);
 }, 100);
