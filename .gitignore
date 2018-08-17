@@ -42,3 +42,10 @@ bookings8.csv
 bookings9.csv
 rooms.csv
 
+# JSON
+bookingsMongo.json
+bookingsMongo1.json
+bookingsMongo2.json
+bookingsMongo3.json
+bookingsMongo4.json
+
