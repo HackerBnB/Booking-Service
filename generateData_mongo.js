@@ -1,6 +1,6 @@
 const faker = require('faker');
-// const mongoose = require('mongoose');
-// const db = require('./models/');
+const mongoose = require('mongoose');
+const db = require('./models/');
 
 const bookings = (start, numOfBookings) => {
   for (let i = start; i <= numOfBookings; i += 1) {
