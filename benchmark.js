@@ -9,8 +9,6 @@ const stress = siege().on('3001');
 
 for (let i = 1; i <= 80000; i += 1) {
   const roomNum = random(100000);
-  // .concurrent(50)
   stress.for(1).times.get(`/api/rooms/${roomNum}/bookings`);
-  // .concurrent(10);
 }
 stress.attack();
