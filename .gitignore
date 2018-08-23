@@ -29,19 +29,6 @@ dist/
 # AWS
 aws-keys.json
 
-# CSV
-bookings.csv
-bookings1.csv
-bookings2.csv
-bookings3.csv
-bookings4.csv
-bookings5.csv
-bookings6.csv
-bookings7.csv
-bookings8.csv
-bookings9.csv
-rooms.csv
-
 # JSON
 bookingsMongo.json
 bookingsMongo1.json
